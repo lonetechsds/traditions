@@ -1,0 +1,162 @@
+export const BUSINESS = {
+  name: 'Traditions Wellness Spa',
+  tagline: 'Mind, Body & Soul',
+  address: '2F Juanita Bldg, Mawaque Road, Mabalacat City, 2010 Pampanga',
+  phone: '+63 XXX XXX XXXX',
+  email: 'info@traditionswellnessspa.com',
+  hours: 'Open Daily: 10:00 AM – 10:00 PM',
+  mapQuery: 'Traditions+Wellness+Spa+Mawaque+Road+Mabalacat+City+Pampanga',
+  socials: {
+    facebook: 'https://www.facebook.com/',
+    instagram: 'https://www.instagram.com/',
+  },
+};
+
+export const SERVICES = [
+  {
+    id: 'swedish',
+    name: 'Swedish Massage',
+    description: 'A classic full-body massage using long, flowing strokes to ease tension, improve circulation, and promote deep relaxation.',
+    duration: '60 / 90 min',
+    price: '₱500 / ₱700',
+    image: 'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    category: 'massage',
+  },
+  {
+    id: 'hilot',
+    name: 'Hilot (Traditional Filipino)',
+    description: 'An ancient Filipino healing art using warm herbal compresses and intuitive hand techniques to restore balance and relieve muscle knots.',
+    duration: '60 / 90 min',
+    price: '₱450 / ₱650',
+    image: 'https://images.pexels.com/photos/3865792/pexels-photo-3865792.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    category: 'massage',
+  },
+  {
+    id: 'hot-stone',
+    name: 'Hot Stone Therapy',
+    description: 'Heated volcanic stones placed along energy points melt away deep-seated tension while soothing warmth penetrates tired muscles.',
+    duration: '90 min',
+    price: '₱800',
+    image: 'https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    category: 'massage',
+  },
+  {
+    id: 'ventosa',
+    name: 'Ventosa (Cupping Therapy)',
+    description: 'Traditional cupping technique that uses suction to increase blood flow, reduce inflammation, and release deep muscular tension.',
+    duration: '45 min',
+    price: '₱400',
+    image: 'https://images.pexels.com/photos/5794054/pexels-photo-5794054.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    category: 'therapeutic',
+  },
+  {
+    id: 'dagdagay',
+    name: 'Dagdagay (Foot Massage)',
+    description: 'A traditional Cordilleran foot therapy using bamboo sticks to stimulate reflex points, promoting whole-body wellness from the ground up.',
+    duration: '45 min',
+    price: '₱350',
+    image: 'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    category: 'therapeutic',
+  },
+  {
+    id: 'body-scrub',
+    name: 'Body Scrub Ritual',
+    description: 'An invigorating full-body exfoliation using natural ingredients to remove dead skin, boost circulation, and leave skin silky and radiant.',
+    duration: '60 min',
+    price: '₱600',
+    image: 'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    category: 'body',
+  },
+  {
+    id: 'ear-candling',
+    name: 'Ear Candling',
+    description: 'A gentle, ancient technique using hollow candles to cleanse the ear canal, relieve sinus pressure, and promote a sense of clarity.',
+    duration: '30 min',
+    price: '₱300',
+    image: 'https://images.pexels.com/photos/3997379/pexels-photo-3997379.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    category: 'therapeutic',
+  },
+  {
+    id: 'shower',
+    name: 'Refreshing Shower',
+    description: 'A private, revitalizing shower experience to complement your spa treatments and leave you feeling fresh and renewed.',
+    duration: '15 min',
+    price: '₱100',
+    image: 'https://images.pexels.com/photos/6663571/pexels-photo-6663571.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    category: 'body',
+  },
+];
+
+export const TESTIMONIALS = [
+  {
+    name: 'Maria Santos',
+    service: 'Swedish Massage',
+    rating: 5,
+    text: 'Absolutely the best massage experience in Pampanga! The therapists are skilled and the ambiance is so calming. I felt like a new person after my session.',
+    avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+  },
+  {
+    name: 'Carlos Reyes',
+    service: 'Hot Stone Therapy',
+    rating: 5,
+    text: 'The hot stone therapy here is unlike anything I\'ve tried before. You can feel the stress melt away with every stone. The entire experience from start to finish was premium quality.',
+    avatar: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+  },
+  {
+    name: 'Ana Dela Cruz',
+    service: 'Hilot',
+    rating: 5,
+    text: 'As a Filipino, I appreciate that they offer authentic Hilot massage. It\'s exactly how my lola described traditional healing. Very therapeutic and the staff is incredibly warm and professional.',
+    avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+  },
+  {
+    name: 'James Mendoza',
+    service: 'Ventosa',
+    rating: 5,
+    text: 'I\'ve been coming here for ventosa cupping sessions and the relief is immediate. Great value, pristine environment, and the therapists really know what they\'re doing. Highly recommended!',
+    avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+  },
+  {
+    name: 'Patricia Lim',
+    service: 'Body Scrub Ritual',
+    rating: 5,
+    text: 'My skin has never felt this smooth! The body scrub ritual was heavenly. The products they use are clearly premium. This is now my go-to spa in Mabalacat.',
+    avatar: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+  },
+];
+
+export const GALLERY_IMAGES = [
+  { src: 'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Massage therapy session', category: 'spa' },
+  { src: 'https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&w=600', alt: 'Relaxing ambiance', category: 'ambiance' },
+  { src: 'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Body treatment', category: 'treatments' },
+  { src: 'https://images.pexels.com/photos/3865792/pexels-photo-3865792.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Traditional healing', category: 'spa' },
+  { src: 'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Foot therapy', category: 'treatments' },
+  { src: 'https://images.pexels.com/photos/3997379/pexels-photo-3997379.jpeg?auto=compress&cs=tinysrgb&w=600', alt: 'Spa experience', category: 'ambiance' },
+];
+
+export const BLOG_POSTS = [
+  {
+    slug: 'benefits-of-hilot-massage',
+    title: 'The Ancient Art of Hilot: Why This Filipino Healing Tradition Still Matters',
+    excerpt: 'Discover the rich history and proven benefits of Hilot, the traditional Filipino massage that has been healing bodies and spirits for centuries.',
+    date: 'April 15, 2026',
+    category: 'Wellness',
+    image: 'https://images.pexels.com/photos/3865792/pexels-photo-3865792.jpeg?auto=compress&cs=tinysrgb&w=600',
+  },
+  {
+    slug: 'hot-stone-therapy-guide',
+    title: 'Hot Stone Therapy: What to Expect on Your First Visit',
+    excerpt: 'Everything you need to know before your first hot stone massage, from how it works to the deep healing benefits you\'ll experience.',
+    date: 'April 10, 2026',
+    category: 'Guide',
+    image: 'https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&w=600',
+  },
+  {
+    slug: 'ventosa-cupping-benefits',
+    title: '5 Surprising Benefits of Ventosa Cupping Therapy',
+    excerpt: 'From pain relief to improved immunity, learn why ventosa cupping therapy is experiencing a global resurgence in wellness circles.',
+    date: 'April 5, 2026',
+    category: 'Therapeutic',
+    image: 'https://images.pexels.com/photos/5794054/pexels-photo-5794054.jpeg?auto=compress&cs=tinysrgb&w=600',
+  },
+];

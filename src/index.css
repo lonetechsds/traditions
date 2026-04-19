@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #d4a843;
+  --color-gold-light: #e8c97a;
+  --color-gold-dark: #b8860b;
+  --color-cream: #faf6ef;
+  --color-cream-dark: #f0e8d8;
+  --color-warm-black: #1a1410;
+  --color-warm-gray: #2a2420;
+  --color-warm-gray-light: #3a3430;
+  --color-text-primary: #faf6ef;
+  --color-text-secondary: #c4b89a;
+  --color-text-muted: #8a7e6a;
+
+  --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-warm-black);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-gold);
+  color: var(--color-warm-black);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-warm-black); }
+::-webkit-scrollbar-thumb { background: var(--color-gold-dark); border-radius: 3px; }
+
+/* Section base */
+.section-subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.gold-line {
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+}
